@@ -211,3 +211,39 @@ body.show-chatbot .chatbot-toggler {
       display: block;
     }
   }
+
+  .chatbox .listaOpcoes {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    width: 100%;
+    list-style-type: none;
+}
+
+.listaOpcoes .opcao {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*-webkit-backface-visibility: hidden; */
+    border: 1px solid;
+    border-radius: 16px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    height: 32px;
+    line-height: 20px;
+    margin: 4px;
+    max-width: 100%;
+    padding: 0 16px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
